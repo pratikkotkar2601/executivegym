@@ -1,0 +1,316 @@
+
+.logo1{
+  border-radius: 50%;
+  margin-top: 10%;
+  margin-left: 9%;
+}
+.container-fluid{
+  margin-top: -40%;
+}
+
+.logo-container {
+  display: inline-block; /* Ensures the container only takes the space necessary for the logo */
+}
+
+.logo1 {
+  transition: transform 0.3s ease-in-out; /* Smooth transition for the transform property */
+  animation: bounce 0.5s infinite alternate; /* Apply bounce animation */
+}
+
+@keyframes bounce {
+  to {
+    transform: translateY(-10px); /* Move the logo 10px up */
+  }
+}
+
+
+.btn a{
+  color: white;
+  text-decoration: none;
+}
+
+.navbar{
+    background: rgb(34, 35, 36);
+    padding-left: 15px;
+    padding-right: 15px;
+   /* position:sticky ;top: 0; z-index: index 1000; */
+    /* background-image: url(image1.jpg); */
+    /* min-height: 1000px; */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-attachment: fixed;
+    
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 59%;
+    margin-top: 1%;
+}
+
+
+/* .logo{
+    color:black;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    background: white;
+    border-radius: 10%;
+} */
+
+.li{
+    list-style: none;
+    display: inline-flex;
+}
+
+.li a{
+    text-decoration: none;
+  color: white;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.li a:hover {
+    background-color: #333; /* Change background color on hover */
+    border-radius: 5px; /* Add border radius on hover */
+  }
+
+.btn-1{
+  background: rgb(255, 88, 85);
+  padding: 10px 30px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;  
+  transition: background-color 0.3s ease;
+  margin-top: -2%;
+}
+
+.btn-1:hover {
+    background-color: #ff5656; /* Change background color on hover */
+    border-radius: 5px; /* Add border radius on hover */
+  }
+
+
+.head5{
+    color: white;
+    margin-left: 45%;
+    font-size: 30px;
+}
+
+
+
+
+/* footer css */
+
+.footer {
+    background-color: rgb(30, 29, 29);
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(WhatsApp\ Image\ 2024-04-11\ at\ 23.15.28.jpeg);
+    min-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 17%;
+  }
+  
+  .footer-section {
+    width: 30%;
+  }
+  
+  .footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section p {
+    margin-bottom: 10px;
+  }
+
+  .logo1{
+    height: 30px;
+    width: 50px;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+  .trainers{
+    color: white;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 150px;
+  font-weight: bold;
+}
+
+.gtext{
+    
+    font-size: 20px;
+  }
+  
+.ptext{
+    
+    color: purple;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+.mtext{
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-around;
+
+}
+
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.card{
+    width: 280px;
+    height: 360px;
+    padding: 2rem 1rem;
+
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover{
+    transform: translateY(20px);
+}
+
+.card::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,176,155,0.5), rgba(150,201,61,1));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+}
+
+.card:hover:before{
+    opacity: 1;
+}
+
+.card .profile{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+.card .info{
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+}
+
+.card:hover .info{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.card .info h1{
+    text-align: center;
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+li{
+    padding: 10px;
+    list-style: none;
+    display: inline;
+}
+
+  /* .card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+  .card img {
+    transition: transform 0.3s;
+  }
+  
+  .card:hover img {
+    transform: scale(1.1);
+  } */
+  
+
+
+  #video-bg1{
+    width: 100%;
+    height: -20%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  

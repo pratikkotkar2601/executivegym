@@ -1,0 +1,676 @@
+*{
+    text-decoration: none;
+    
+}
+/*
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dropdown-menu li {
+  margin-bottom: 5px;
+}
+
+.dropdown-menu li a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #555;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}*/
+
+.dropdown-item:hover{
+  font-weight: bold;
+  background-color: #333; 
+}
+
+
+
+
+img .logo1{
+    
+
+  }
+  .container-fluid{
+    margin-top: -45%;
+  }
+
+  .navbar-nav{
+  text-decoration: none;
+  font-size: large;
+  color: white;
+  padding: 20px;
+  transition: all 0.3s ease;
+  margin-left: 30px;
+  gap: 50px;
+}
+
+.collapse{
+  margin-top: -5%;
+}
+
+li a:hover{
+  font-weight: bold;
+  background-color: #333; 
+  border-radius: 5px;
+}
+  /*.logo-container {
+    display: inline-block; 
+  }*/
+  
+ .logo1 {
+    transition: transform 0.3s ease-in-out; 
+    animation: bounce 0.5s infinite alternate; 
+  }
+
+  @keyframes bounce {
+    to {
+      transform: translateY(-10px); 
+    }
+  } 
+
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+ 
+.navbar{
+    background: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: url(image1.jpg);
+    min-height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 57%;
+    padding: 10px;
+  
+}
+
+
+
+
+
+.logo{
+    color:black;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    background: white;
+    border-radius: 10%;
+   
+}
+
+.li{
+    list-style: none;
+    display: f;
+}
+
+.li a{
+    text-decoration: none;
+  color: white;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.li a:hover {
+    background-color: #333; 
+    border-radius: 5px; 
+  }
+
+
+
+.btn-1{
+  background: rgb(255, 88, 85);
+  padding: 10px 30px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;  
+  transition: background-color 0.3s ease;
+  margin-top: -2%;
+}
+
+.btn-1:hover {
+    background-color: #ff5656; /* Change background color on hover */
+    border-radius: 5px; /* Add border radius on hover */
+  }
+
+
+
+
+  /* Homepage css */
+
+
+  *{
+    font-family: sans-serif;
+}
+
+.box1{
+    background: rgb(224, 224, 231);
+    height: 600px;
+    width:  600px;
+    margin-left: 7%;
+    margin-top:12%;
+    background-image: url(img13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+
+.img2{
+    border-radius: 20%;
+    margin-top: -60%;
+    margin-left: 10%;
+   }
+
+   .info-1{
+    margin-left: 50%;
+    margin-top: -40%;
+    font-family: sans-serif;
+    font-size: 50px;
+   }
+
+   .client-1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        margin-left: 20%;
+        margin-top: -28%;
+        color: white;
+   }
+
+   .box-3{
+    background: rgb(224, 224, 231);
+    height: 600px;
+    width:  600px;
+    margin-left: 7%;
+    margin-top:12%;
+    background-image: url(Image4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;     
+   }
+
+   .head2{
+    margin-left: 52%;
+    margin-top: -60%;
+    font-size: 20px;
+   }
+
+   .INFO-3{
+    margin-left: 52%;
+    color: darkblue;
+    font-size: 30px;
+   }
+
+   .para1{
+    margin-left: 52%;
+    font-family: sans-serif;
+    font-size: 20px;
+   }
+
+   .btn-2{
+    background: rgb(247, 95, 95);
+    color: white;
+    /* list-style: none; */
+    font-size: 20px;
+    border-radius: 20px;
+    /* margin-left: 24%; */
+   }
+
+   .btn-2 a{
+    color: white;
+   }
+
+   .box-4{
+    background: rgb(30, 29, 29);
+    height: 130vh;
+    width:  110%;
+    margin-left: 7%;
+    margin-top:60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -10%;
+   }
+
+   .head3{
+    font-size: 50px;
+    color: white;
+    margin-top: -65%;
+    margin-left: 14%;
+   }
+
+
+
+ 
+
+   .img10{
+    
+    height: 800px;
+    width: 600px;
+    margin-top: 15%;
+   }
+
+   .img11{
+    height:500px;
+    width: 400px;
+    margin-left: 45%;
+    margin-top: -72%;
+   }
+
+   .img7{
+    height: 400px;
+    width: 350px;
+    margin-left: 75%;
+    margin-top: -70%;
+   }
+
+
+
+   /* Cards css     */
+
+
+
+   *{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .Cards3{
+      position: relative;
+      width: 300px;
+      height: 300px;  
+    }
+  
+    .Cards3 .face {
+      position: absolute;
+      width: 100%; /* Take up the full width of its parent */
+      height: 100%; /* Take up the full height of its parent */
+      backface-visibility: hidden;
+      border-radius: 10px; /* Apply rounded corners */
+      overflow: hidden; /* Prevent content from overflowing */
+      transition: .5s; /* Add transition effect */
+  }
+  
+  /* Media query for devices with a maximum width of 768px */
+  @media screen and (max-width: 768px) {
+      .Cards3 .face {
+          border-radius: 8px; /* Adjust border-radius for smaller devices */
+      }
+  }
+  
+  /* Media query for devices with a maximum width of 480px */
+  @media screen and (max-width: 480px) {
+      .Cards3 .face {
+          border-radius: 6px; /* Further adjust border-radius for even smaller devices */
+      }
+  }
+  
+  
+    .Cards3 .front {
+      transform: perspective(600px) rotateY(0deg); /* Apply initial perspective and rotation */
+      box-shadow: 0 5px 10px #800080; /* Apply initial box-shadow */
+  }
+  
+  /* Media query for devices with a maximum width of 768px */
+  @media screen and (max-width: 768px) {
+      .Cards3 .front {
+          transform: perspective(400px) rotateY(0deg); /* Adjust perspective for smaller devices */
+          box-shadow: 0 3px 6px #800080; /* Adjust box-shadow for smaller devices */
+      }
+  }
+  
+  /* Media query for devices with a maximum width of 480px */
+  @media screen and (max-width: 480px) {
+      .Cards3 .front {
+          transform: perspective(200px) rotateY(0deg); /* Further adjust perspective for even smaller devices */
+          box-shadow: 0 2px 4px #800080; /* Further adjust box-shadow for even smaller devices */
+      }
+  }
+  
+ 
+    
+    .Cards3 .front img {
+      position: absolute; /* Position the image absolutely within its container */
+      width: 100%; /* Take up the full width of its parent */
+      height: 100%; /* Take up the full height of its parent */
+      object-fit: cover; /* Scale the image while maintaining aspect ratio to cover the entire container */
+  }
+  
+  /* Media query for devices with a maximum width of 768px */
+  @media screen and (max-width: 768px) {
+      .Cards3 .front img {
+          /* Adjust properties for smaller devices if necessary */
+      }
+  }
+  
+  /* Media query for devices with a maximum width of 480px */
+  @media screen and (max-width: 480px) {
+      .Cards3 .front img {
+          /* Further adjust properties for even smaller devices if necessary */
+      }
+  }
+  
+  
+    
+    .Cards3 .front h3 {
+      width: 100px; /* Initial width */
+      height: 300px; /* Initial height */
+      line-height: 4px; /* Initial line height */
+      color: white;
+      background: rgb(228, 218, 218);
+      text-align: center;
+  }
+  
+  /* Media query for devices with a maximum width of 768px */
+  @media screen and (max-width: 768px) {
+      .Cards3 .front h3 {
+          width: 80px; /* Adjust width for smaller devices */
+          height: 250px; /* Adjust height for smaller devices */
+          line-height: 3.5px; /* Adjust line height for smaller devices */
+      }
+  }
+  
+  /* Media query for devices with a maximum width of 480px */
+  @media screen and (max-width: 480px) {
+      .Cards3 .front h3 {
+          width: 60px; /* Further adjust width for even smaller devices */
+          height: 200px; /* Further adjust height for even smaller devices */
+          line-height: 3px; /* Further adjust line height for even smaller devices */
+      }
+  }
+  
+ 
+    
+    .Cards3 .back {
+      transform: perspective(600px) rotateY(180deg); /* Apply initial perspective and rotation */
+      background: rgb(239, 237, 237);
+      padding: 15px;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; 
+  }
+  
+  /* Media query for devices with a maximum width of 768px */
+  @media screen and (max-width: 768px) {
+      .Cards3 .back {
+          padding: 10px; /* Adjust padding for smaller devices */
+      }
+  }
+  
+  /* Media query for devices with a maximum width of 480px */
+  @media screen and (max-width: 480px) {
+      .Cards3 .back {
+          padding: 5px; /* Further adjust padding for even smaller devices */
+      }
+  }
+  
+ 
+  
+    .Cards3 .back {
+      border-top: solid 1px blue; /* Apply initial border */
+      height: 100%; /* Make the element take up full height */
+      line-height: 20px; /* Apply initial line height */
+  }
+  
+  /* Media query for devices with a maximum width of 768px */
+  @media screen and (max-width: 768px) {
+      .Cards3 .back {
+          border-top: solid 1px blue; /* Keep the border the same for smaller devices */
+          height: auto; /* Allow height to be determined by content for smaller devices */
+          line-height: 16px; /* Adjust line height for smaller devices if necessary */
+      }
+  }
+  
+  /* Media query for devices with a maximum width of 480px */
+  @media screen and (max-width: 480px) {
+      .Cards3 .back {
+          border-top: solid 1px blue; /* Keep the border the same for even smaller devices */
+          height: auto; /* Allow height to be determined by content for even smaller devices */
+          line-height: 12px; /* Further adjust line height for even smaller devices if necessary */
+      }
+  }
+  
+  
+    .Cards3 .back h3{
+      font-size: 30px;
+     
+     
+     
+    }
+    
+    
+    .Cards3 .back p {
+      letter-spacing: 1px; /* Apply initial letter spacing */
+      text-align: center; /* Apply initial text alignment */
+  }
+  
+  /* Media query for devices with a maximum width of 768px */
+  @media screen and (max-width: 768px) {
+      .Cards3 .back p {
+          letter-spacing: 0.5px; /* Adjust letter spacing for smaller devices if necessary */
+          text-align: center; /* Keep text alignment the same for smaller devices */
+      }
+  }
+  
+  /* Media query for devices with a maximum width of 480px */
+  @media screen and (max-width: 480px) {
+      .Cards3 .back p {
+          letter-spacing: 0.25px; /* Further adjust letter spacing for even smaller devices if necessary */
+          text-align: center; /* Keep text alignment the same for even smaller devices */
+      }
+  }
+  
+  
+    
+    .Cards3:hover .front {
+      transform: perspective(600px) rotateY(180deg); /* Apply initial perspective and rotation */
+  }
+  
+  /* Media query for devices with a maximum width of 768px */
+  @media screen and (max-width: 768px) {
+      .Cards3:hover .front {
+          transform: perspective(400px) rotateY(180deg); /* Adjust perspective for smaller devices */
+      }
+  }
+  
+  /* Media query for devices with a maximum width of 480px */
+  @media screen and (max-width: 480px) {
+      .Cards3:hover .front {
+          transform: perspective(200px) rotateY(180deg); /* Further adjust perspective for even smaller devices */
+      }
+  }
+  
+  
+    
+    .Cards3:hover .back {
+      transform: perspective(600px) rotateY(360deg); /* Apply initial perspective and rotation */
+  }
+  
+  /* Media query for devices with a maximum width of 768px */
+  @media screen and (max-width: 768px) {
+      .Cards3:hover .back {
+          transform: perspective(400px) rotateY(360deg); /* Adjust perspective for smaller devices */
+      }
+  }
+  
+  /* Media query for devices with a maximum width of 480px */
+  @media screen and (max-width: 480px) {
+      .Cards3:hover .back {
+          transform: perspective(200px) rotateY(360deg); /* Further adjust perspective for even smaller devices */
+      }
+  }
+  
+  
+    
+    .allcards{
+      display: flex;
+      justify-content: space-evenly; 
+      background-color:'white';
+      height: 100%;
+      margin-top: -40%;
+     
+      
+    }
+  
+   .info-4{
+    color: white;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 10%;
+   }
+
+   .img15{
+    margin-top: 12%;
+    margin-left: 10%;
+   }
+
+   .head4{
+    font-size: 80px;
+    margin-left: 40%;
+    margin-top: -40%;
+   }
+
+  .quote{
+    font-size: 500px;
+    margin-left: 38%;
+    color: #ff5656;
+  }
+
+   
+
+
+   /* Footer css */
+
+
+   .footer {
+    background-color: rgb(30, 29, 29);
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(WhatsApp\ Image\ 2024-04-11\ at\ 23.15.28.jpeg);
+    min-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10%;
+  }
+  
+  .footer-section {
+    width: 30%;
+  }
+  
+  .footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section p {
+    margin-bottom: 10px;
+  }
+
+  
+
+
+  .logo1{
+    border-radius: 50%;
+    margin-top: -38%;
+    margin-left: 9%;
+  }
+
+
+  .logo-container {
+    display: inline-block; /* Ensures the container only takes the space necessary for the logo */
+  }
+  
+  .logo1 {
+    transition: transform 0.3s ease-in-out; /* Smooth transition for the transform property */
+    animation: bounce 0.5s infinite alternate; /* Apply bounce animation */
+  }
+  
+  @keyframes bounce {
+    to {
+      transform: translateY(-10px); /* Move the logo 10px up */
+    }
+  }
+
+
+  .welcome{
+    color: white;
+    font-size: 35px;
+    margin-left: 15%;
+    margin-top: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .welcome {
+    animation: slideFromLeft 0.5s ease-in-out forwards;
+    opacity: 0; /* Start with opacity 0 */
+    position: relative;
+    left: -100px; /* Start from the left */
+  }
+  
+  @keyframes slideFromLeft {
+    from {
+      opacity: 0;
+      left: -100px;
+    }
+    to {
+      opacity: 1;
+      left: 0;
+    }
+  }
+
+  /* .button1{
+    font-size: 20px;
+    margin-left: 34%;
+    border-radius: 20px;
+    background-color: #000000;
+    color: white;
+    height: 50px;
+  }
+
+  .button1 a{
+    color: white;
+  } */
+
+    

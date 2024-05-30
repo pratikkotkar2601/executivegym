@@ -1,0 +1,184 @@
+
+
+
+
+
+.navbar{
+    background: rgb(34, 35, 36);
+    padding-left: 15px;
+    padding-right: 15px;
+   /* position:sticky ;top: 0; z-index: index 1000; */
+    /* background-image: url(image1.jpg); */
+    /* min-height: 1000px; */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-attachment: fixed;
+    
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 59%;
+    margin-top: 1%;
+}
+
+
+/* .logo{
+    color:black;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    background: white;
+    border-radius: 10%;
+} */
+
+.li{
+    list-style: none;
+    display: inline-flex;
+}
+
+.li a{
+    text-decoration: none;
+  color: white;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.li a:hover {
+    background-color: #333; /* Change background color on hover */
+    border-radius: 5px; /* Add border radius on hover */
+  }
+
+.btn-1{
+  background: rgb(255, 88, 85);
+  padding: 10px 30px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;  
+  transition: background-color 0.3s ease;
+  margin-top: -2%;
+}
+
+.btn-1:hover {
+    background-color: #ff5656; /* Change background color on hover */
+    border-radius: 5px; /* Add border radius on hover */
+  }
+
+
+.head5{
+    color: white;
+    margin-left: 45%;
+    font-size: 30px;
+}
+
+.title{
+    margin-left: 28%;
+}
+
+.carousel1{
+    height: 200px;
+    width: 1519px;
+    /* margin-top: 20%; */
+}
+
+.video1{
+    margin-top: 67%;
+    margin-left: 5%;
+    height: -30px;
+}
+
+.info-5 h1{
+    margin-left: 58%;
+    margin-top: -35%;
+    font-size: 60px;
+}
+
+.info-5 p{
+    margin-left: 58%;
+    margin-top: 3%;
+    font-size: 50px;
+}
+
+.video2{
+    margin-top: 18%;
+    margin-left: 65%;
+    height: 40px;
+    width: 50px;
+}
+
+.info-6 h1{
+    margin-left: 5%;
+    font-size: 50px;
+}
+
+.info-7 p{
+    margin-left: 5%;
+    font-size: 40px;
+}
+
+/* footer css */
+
+
+.footer {
+    background-color: rgb(30, 29, 29);
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(WhatsApp\ Image\ 2024-04-11\ at\ 23.15.28.jpeg);
+    min-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 33%;
+  }
+  
+  .footer-section {
+    width: 30%;
+  }
+  
+  .footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section p {
+    margin-bottom: 10px;
+  }
+
+  .logo1{
+    height: 30px;
+    width: 50px;
+    
+  }
+
+
+  #video-bg{
+    width: 100%;
+    height: -20%;
+  }
+
+ 
+
+       
+  
